@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tree.css" />
+    <link
+      rel="stylesheet"
+      href="../fontello-b951b68b (1)/fontello-b951b68b/css/fontello.css"
+    />
+  </head>
+  <body>
+    <ul class="tree">
+      <li>
+        <input type="checkbox" id="root" />
+        <label for="root">ROOT</label>
+        <!-- 누구의 레이블인지 표시 이름을 눌러도 선택 -->
+        <ul>
+          <li><a href="http://naver.com">node1</a></li>
+          <li><a href="http://naver.com">node2</a></li>
+          <li>
+            <input type="checkbox" id="node3" />
+            <label for="node3">node3</label>
+            <ul>
+              <li><a href="http://naver.com">node3-1</a></li>
+              <li><a href="http://naver.com">node3-2</a></li>
+              <li><a href="http://naver.com">node3-3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

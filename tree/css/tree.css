@@ -1,0 +1,15 @@
+/* 속성 선택자 ~checked~ 이후에 등장하는 ul태그*/
+.tree,
+.tree ul {
+  list-style: none;
+  padding-left: 20px;
+}
+.tree label::before {
+  content: "\f255";
+}
+.tree input[type="checkbox"] {
+  display: none;
+}
+.tree input[type="checkbox"]:checked ~ ul {
+  display: none;
+}

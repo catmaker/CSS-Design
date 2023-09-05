@@ -1,0 +1,15 @@
+.thumbnail {
+  background-image: url("../img/moon.jpg");
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-size: cover; /*cover는
+  비율을 왜곡시키지 않으나 나머지는 버려짐*/
+  background-repeat: no-repeat;
+  background-position: center center; /*center를 주면 가운데만 보여줌*/
+
+  border: 5px solid grey;
+}
+.thumbnail.round {
+  border-radius: 20px;
+}
